@@ -1,0 +1,96 @@
+
+body {
+	background: #CCCCCC url('../resources/gray_jean.png'); 
+}
+
+
+ul{
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#container{
+	margin: 0px auto;
+	width: 1200px;
+}
+
+.pin {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	opacity: 1;
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.pin a{
+	text-decoration: none;
+}
+
+.pin:hover{
+	box-shadow:0 0 5px #999999;
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+.pin{
+	max-height: 600px;
+	margin-left: 5px;
+	padding-top: 0px;
+}
+
+.pin > ul{
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+.pin li{
+	list-style: none;
+}
+.pin  ul  li a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pin hr{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.row-fluid .pin{
+	width: 13.75%;
+	margin-left: 0.6%;
+}
+
+.pin .thumb-wrapper{
+	height: auto;
+	max-width: 100%;
+}
+.pin .thumb{
+	max-height: 366px;
+	max-width: 240px;
+	position: relative;
+}
